@@ -23,6 +23,7 @@ function App() {
   return (
     <>
       <div className="App">
+        <h1>Peckish</h1>
         <SearchBar />
         <BusinessList businesses={businesses}/>
       </div>
