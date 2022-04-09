@@ -1,18 +1,6 @@
 import React from 'react';
 import './Business.css';
 
-const business = {
-    imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-    name: "Marc's Tacocs",
-    address: '123 StreetName',
-    city: 'Flavortown',
-    state: 'NY',
-    zipCode: '12345',
-    category: 'Mexican',
-    rating: 4.5,
-    reviewCount: 101
-}
-
 class Business extends React.Component {
     
     render() {
