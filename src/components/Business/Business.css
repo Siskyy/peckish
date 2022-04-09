@@ -9,12 +9,14 @@
 .Business .image-container {
   height: 16.66rem;
   margin-bottom: 1rem;
+  border-radius: 0.8rem;
 }
 
 .Business h2 {
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
   font-weight: 600;
+  color: whitesmoke;
 }
 
 .Business-information {
@@ -26,6 +28,7 @@
   font-size: 0.88rem;
   font-weight: 300;
   line-height: 1rem;
+  color: whitesmoke;
 }
 
 .Business-address {
@@ -42,11 +45,12 @@
 }
 
 .Business-reviews h3 {
-  color: #cca353;
+  color: var(--color-green);
   font-weight: 600;
 }
 
 .Business-reviews .rating {
   font-size: 0.88rem;
   line-height: 1rem;
+  color: var(--color-yellow);
 }

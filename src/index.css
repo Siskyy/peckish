@@ -5,6 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg);
+}
+
+:root {
+  --color-bg: rgb(28, 28, 28);
+  --color-brown: rgb(127, 49, 2);
+  --color-orange: rgb(234, 154, 55);
+  --color-yellow: rgb(245, 222, 111);
+  --color-blue: rgb(107, 217, 220);
+  --color-green: rgb(193, 244, 135);
 }
 
 code {

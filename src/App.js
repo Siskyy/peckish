@@ -7,7 +7,7 @@ import SearchBar from './components/SearchBar/SearchBar';
 
 const business = {
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-  name: "Marc's Tacocs",
+  name: "Marc's Tacos",
   address: '123 StreetName',
   city: 'Flavortown',
   state: 'NY',
