@@ -2,8 +2,7 @@ const apiKey = "orJDnPMg5LVIwqKHsyr5-mj0BNyDInJX_HIC6unP9MdNODkJrrxeDl2b3wYtLNkk
 
 const Yelp = {
     searchYelp(term, location, sortBy) {
-        return {
-            fetch(`https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
+        return fetch(`https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
                 headers: {
                     Athorization: `Bearer ${apiKey}`
                 }
@@ -27,8 +26,7 @@ const Yelp = {
                     });
                 }
             });
-        };
+        }
     };
-};
 
 export default Yelp;
